@@ -1,0 +1,25 @@
+<h1>Angular Calculator</h1>
+<div class="calc-container">
+  
+<div class="current-equation">
+    {{currEquation==''? 0 :currEquation}}
+</div>
+
+<div class="current-result">
+    {{result}}
+</div>
+<mat-grid-list class="grid-list" cols="4" rows="5"  rowHeight="2:1">
+    
+        <mat-grid-tile
+                class="num-tile"
+                *ngFor="let tile of tiles"
+                [colspan]="tile.colSpan"
+                [rowspan]="1"
+                [style.background]="tile.bgColor"
+                (click)="handleClick(tile)"
+            >   
+            {{tile.text}}
+      </mat-grid-tile>
+    <!-- </button> -->
+</mat-grid-list>
+</div>

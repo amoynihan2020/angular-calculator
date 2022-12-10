@@ -1,0 +1,47 @@
+.num-tile {
+    background-color: antiquewhite;
+    
+}
+h1{
+    text-align: center;
+}
+.current-equation{
+    margin:auto;
+    width:98%;
+    height:40px;
+    margin-bottom:10px;
+    margin-top:5px;
+    border: 1px solid black;
+    border-radius:2px;
+
+    background-color:white;
+   
+}
+.current-result{
+    margin:auto;
+    width:98%;
+    height:40px;
+    margin-bottom:10px;
+    margin-top:5px;
+    border: 1px solid black;
+    border-radius:2px;
+
+    background-color:white;
+
+}
+.num-tile:hover{
+    cursor: pointer;
+}
+.grid-list{
+    width: 98%;
+    height:98%;
+    margin:auto
+}
+.calc-container{
+    margin:auto;
+    width:380px;
+    height:380px;
+    background-color: beige;
+    border: 1px solid black;
+    border-radius: 4px;;
+}
